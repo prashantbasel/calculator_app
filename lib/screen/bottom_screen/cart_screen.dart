@@ -9,23 +9,23 @@ class CartScreen extends StatefulWidget {
 }
 
 class _CartScreenState extends State<CartScreen> {
-  List<Item> lstItems = [
-    Item(
-      name: 'Apple',
-      price: 1000,
-      quantity: 5,
-    ),
-    Item(
-      name: 'Banana',
-      price: 2000,
-      quantity: 10,
-    ),
-    Item(
-      name: 'Orange',
-      price: 3000,
-      quantity: 15,
-    ),
-  ];
+  // List<Item> lstItems = [
+  //   Item(
+  //     name: 'Apple',
+  //     price: 1000,
+  //     quantity: 5,
+  //   ),
+  //   Item(
+  //     name: 'Banana',
+  //     price: 2000,
+  //     quantity: 10,
+  //   ),
+  //   Item(
+  //     name: 'Orange',
+  //     price: 3000,
+  //     quantity: 15,
+  //   ),
+  // ];
   @override
   Widget build(BuildContext context) {
     return SizedBox.expand(

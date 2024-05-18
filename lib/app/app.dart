@@ -1,4 +1,4 @@
-import 'package:calculator_app/screen/bottom_screen/dashboard_screen.dart';
+import 'package:calculator_app/screen/gesture_screen.dart';
 import 'package:flutter/material.dart';
 
 class App extends StatelessWidget {
@@ -8,7 +8,7 @@ class App extends StatelessWidget {
   Widget build(BuildContext context) {
     return const MaterialApp(
       debugShowCheckedModeBanner: false,
-      home: DashboardScreen(),
+      home: GestureScreen(),
     );
   }
 }
